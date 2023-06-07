@@ -19,7 +19,7 @@ class Solution
     public static void Main(string[] args)
     {
         int N = Convert.ToInt32(Console.ReadLine().Trim());
-        
+        string result;
         switch (N % 2)
         {
             case 0:
@@ -34,8 +34,6 @@ class Solution
                 result = "Weird";
                 break;
         }
-
-            Console.WriteLine(result);
-        }
+         Console.WriteLine(result);
     }
 }
